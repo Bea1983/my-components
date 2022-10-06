@@ -1,0 +1,46 @@
+/* GENERAL TERMS */
+
+* {
+  box-sizing: border-box
+}
+
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display: table;
+  text-align: center;
+  height: 8rem;
+  display: table;
+  width: 100vw;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+footer small {
+  display: block;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  letter-spacing: .025rem;
+}
+
+.footer-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+}
+
+.footer-nav a:hover{
+ color: #f26896; 
+ transition: color .15s easy-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
